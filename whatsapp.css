@@ -1,0 +1,358 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+  }
+
+  .Header{
+    width: 100%;
+    height: 96px;
+    background-color: #128c7e;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    font-weight: 400;
+    margin: 0%;
+    top: 0%;
+    padding: 0%;
+    font-family:Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    z-index: 1;
+
+  }
+
+
+
+.SubClassO{
+    width: 44px;
+    height: 33px;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    margin-left: 210px;
+    cursor: pointer;
+
+}
+.SubClassO >p{
+    color: #ffff;
+    margin-left: 10px;
+    display: flex;
+    /* align-items: center; */
+    font-weight: bolder;
+    font-size: 22px;
+
+}
+.Header_cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-left: 00px;
+    padding-right: 174px;
+
+} 
+.svgfile {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.Ulclass{
+    display: flex;
+    gap: 4rem;
+    list-style-type: none;
+    justify-content: center;
+    
+    
+
+}
+.Ulclass  a{
+    color: #ffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+
+}
+ .TextPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 210px;
+    z-index: 0;
+    /* margin-left: 450px;     */
+    
+} 
+ .TotContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top:230px;
+    margin-left: 0px;
+   
+} 
+
+.TextContent > h3  {
+    font-size: 33px;
+    font-family:Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 195;
+    line-height: 43px;
+    /* margin-left: 50px; */
+
+} 
+
+.TextContent > p {
+    font-size: 18px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    text-align: left;
+    color: #1c1e21;
+    display: block;
+    line-height: 31px;
+}
+.To_align {
+    display: flex;
+    flex-direction:column ;
+    margin-left: 255px;
+    margin-top: 38px;
+}
+.Main_Fpage{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    /* justify-content: space-between; */
+
+    
+    
+}
+.Main_Fpage svg {
+    margin-right: 5px;
+}
+.Fpage {
+    display: flex;
+    margin-bottom: 8px;
+
+}
+
+.Fpage > a {
+    font-size: 18px;
+    line-height: 10px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #128c7e;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+.Fpage > a:hover {
+    text-decoration: underline;
+}
+
+.TextContent > img {
+    /* margin-top: 20px; */
+    width: 30px;
+}
+.Fpage{
+    margin-left: 8px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    align-items: center;
+
+}
+.Phone_Img img {
+    display: block;
+    max-width: 100%;
+    /* margin-left: 60px; */
+    padding-left: 130px;
+    width: 60%;
+    height: 90%;
+    
+}
+
+.Nxt_Page_One {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 60px;
+    color: #1c1e21;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.left_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin-left: 55px;
+    margin-right: 96px;
+    position: relative;
+    /* text-align: center; */
+    /* vertical-align: middle; */
+    align-items: center;
+    
+    background-color: #D8E8EA;
+    width: 800px; 
+    height: 850px;
+    
+    
+}
+.left_section h1 {
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    padding-top: 32px;
+
+}
+
+.left_section p {
+    font-size: 18px;
+    line-height: 26px;
+    align-items: center;
+}
+.left_section a {
+    text-decoration: none;
+    color:#128c7e ;
+}
+
+       
+
+.left_section img {
+    width: 330px;
+    margin-bottom: 0px;   
+    padding-bottom: 0px;
+    margin-top: 40px;
+}
+
+.Right_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #E7F0E4;
+    width: 800px; 
+    height: 850px;
+    margin-right: 55px;
+    margin-left: -60px;
+
+}
+
+
+.circle {
+    width: 350px;
+    height: 350px;
+    background-color: #77D7C8;
+    border-radius: 100%;
+    margin-left: 176px;
+    margin-top: 0px;
+    position: relative;
+    display: flex;
+
+}
+.Hello {
+    font-size: 18px;
+    font-weight: bold;
+    border: 6px white solid;    
+    position: absolute;
+    width: 131px;
+    top: 160px;
+    right: 113px;
+    border-radius: 15px;
+   background-color: white;
+   text-align: center;
+
+}
+.Encryption {
+    color: #5E5E5E;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: .15em;
+    margin-bottom: -116px;
+    margin-top: -20px;
+    text-align: center;
+}
+.Right_section h1 {
+    
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+    font-weight: 700;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-top: 52px;
+
+}
+.security_text {
+    font-size: 18px;
+    line-height: 26px ;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.Next_Page_Button {
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explore{
+    border: #128c7e 2px solid  ;
+    color: black;
+    background-color: #ffff;
+    border-radius: 100px;
+    padding: 15px;
+    width: 200px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    cursor: pointer;
+
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    padding: 30px;
+    background-color: #273443;
+    color: #ffff;
+   
+}
+
+.footer li {
+    list-style: none;
+    font-size: 18px;
+    margin: 8px;
+    font-weight: 300px;
+
+}
+.footer li:hover {
+    text-decoration-line: underline;
+}
+
+.footer  ul .Footer_Heading:hover {
+    text-decoration: none;
+}
+
+.Footer_Heading {
+    padding-bottom: 20px;
+}
+.base {
+    background-color: #1c1e21;
+    color:#ffff;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    line-height: 26px;
+    justify-content: space-around;
+    padding: 20px;
+}
+.Terms:hover {
+   cursor: pointer;
+}
+
+
